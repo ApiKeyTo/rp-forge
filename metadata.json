@@ -1,0 +1,8 @@
+{
+  "name": "RP Prompt Forge",
+  "description": "Профессиональный инструмент объективного аудита, оценки и улучшения ролевых промптов (RolePlay) для нейросетей.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

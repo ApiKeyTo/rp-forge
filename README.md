@@ -1,3 +1,8 @@
+В предыдущей редакции съехали тройные кавычки блока кода, из-за чего блок отрисовался пустым, а команды выпали наружу обычным текстом.
+
+Полный текст для `README.md` со всеми шагами и корректной разметкой (скопируй и замени всё содержимое файла):
+
+```markdown
 # 💀 RP Forge v3.0
 
 > Профессиональный инструмент объективного аудита, оценки и улучшения ролевых промптов (RolePlay) для нейросетей.
@@ -26,6 +31,36 @@
 ### Установка и запуск
 
 1. Склонируйте репозиторий:
-   ```bash
-git clone https://github.com/ApiKeyTo/rp-forge.git
+```bash
+git clone [https://github.com/ApiKeyTo/rp-forge.git](https://github.com/ApiKeyTo/rp-forge.git)
 cd rp-forge
+
+```
+
+2. Установите зависимости:
+
+```bash
+npm install
+
+```
+
+3. Запустите локальный сервер:
+
+```bash
+npm run dev
+
+```
+
+4. Откройте приложение в браузере по адресу `http://localhost:3000`. Настройте ключ в модалке и запускайте аудит!
+
+## 🛠️ Стек технологий
+
+* **Frontend:** React 19, Vite, Tailwind CSS v4, Lucide Icons
+* **Backend:** Node.js, Express, Google GenAI SDK (`@google/genai`)
+* **API:** Groq Cloud API, Google Gemini API
+
+```
+
+Нажми иконку карандаша справа сверху над файлом[cite: 24], сотри всё через `Ctrl + A` $\rightarrow$ `Backspace`, вставь этот блок и сохрани через **Commit changes**.
+
+```

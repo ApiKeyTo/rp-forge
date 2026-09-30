@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 💀 RP Forge v3.0
 
-# Run and deploy your AI Studio app
+> Профессиональный инструмент объективного аудита, оценки и улучшения ролевых промптов (RolePlay) для нейросетей.
 
-This contains everything you need to run your app locally.
+## ✨ Ключевые возможности
 
-View your app in AI Studio: https://ai.studio/apps/8fbebc2c-c350-42b3-bc47-af04c388307e
+- **Объективный пятиосевой аудит (0–10):**
+  - Глубина персонажа и голос
+  - Устойчивость к OOC & Execution Checks
+  - Логика мира и сеттинг
+  - Форматирование диалогов и реплик
+  - Свобода воли игрока & Защита от Godmoding
+- **Интеллектуальная компрессия промптов:** безопасная обработка масштабных сценариев (25 000+ символов / 6k+ токенов) без превышения лимитов Groq/OpenAI.
+- **Отказоустойчивый парсинг:** встроенный механизм автовосстановления повреждённого или оборванного JSON при генерации.
+- **Мультипровайдерность:** поддержка сверхбыстрых бесплатных моделей Groq (`gpt-oss-120b`, `qwen/qwen3.8-27b`), Google Gemini 3.8 Flash, а также сторонних OpenAI-совместимых эндпоинтов (OpenRouter).
+- **Оффлайн-режим:** быстрый эвристический аудит без затрат API-токенов и без интернета.
+- **Локальная история версий (Timeline):** автоматическое сохранение версий (v1, v2, v3...) с расчётом дельты баллов.
+- **Модули усиления в 1 клик:** быстрый инжект проверенных блоков `Execution Check`, `Anti-Godmoding` и правил форматирования.
 
-## Run Locally
+## 🚀 Быстрый старт
 
-**Prerequisites:**  Node.js
+### Требования
+- Node.js (v18+)
+- Ключ Groq API (бесплатно на [console.groq.com](https://console.groq.com)) или Gemini API
 
+### Установка и запуск
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Склонируйте репозиторий:
+   ```bash
+   git clone [https://github.com/ApiKeyTo/rp-forge.git](https://github.com/ApiKeyTo/rp-forge.git)
+   cd rp-forge

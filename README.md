@@ -53,9 +53,3 @@ npm run dev
 * **Frontend:** React 19, Vite, Tailwind CSS v4, Lucide Icons
 * **Backend:** Node.js, Express, Google GenAI SDK (`@google/genai`)
 * **API:** Groq Cloud API, Google Gemini API
-
-```
-
-Сохраняй через **Commit changes** — и страница превратится в нормальный отрендеренный лендинг без лишнего текста[cite: 23].
-
-```

@@ -27,5 +27,5 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone [https://github.com/ApiKeyTo/rp-forge.git](https://github.com/ApiKeyTo/rp-forge.git)
-   cd rp-forge
+git clone https://github.com/ApiKeyTo/rp-forge.git
+cd rp-forge

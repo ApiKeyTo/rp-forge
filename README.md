@@ -58,9 +58,3 @@ npm run dev
 * **Frontend:** React 19, Vite, Tailwind CSS v4, Lucide Icons
 * **Backend:** Node.js, Express, Google GenAI SDK (`@google/genai`)
 * **API:** Groq Cloud API, Google Gemini API
-
-```
-
-Нажми иконку карандаша справа сверху над файлом[cite: 24], сотри всё через `Ctrl + A` $\rightarrow$ `Backspace`, вставь этот блок и сохрани через **Commit changes**.
-
-```
